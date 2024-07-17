@@ -36,7 +36,6 @@ export const TemplateStyle = styled(Box)({
     height: "30px",
     borderRadius: "6px",
     border: "0.5px solid grey",
-    // margin:'auto',
     display: "flex",
   },
   "& .login-heading": {
@@ -44,7 +43,7 @@ export const TemplateStyle = styled(Box)({
     fontWeight: fontWeight.semibold,
   },
   "& .label-text": {
-    fontSize: fontSize.h4,
+    fontSize: fontSize.h5,
     fontWeight: fontWeight.semibold,
   },
   "& .continue-btn": {
@@ -57,5 +56,18 @@ export const TemplateStyle = styled(Box)({
   },
   "& .continue-btn:hover ": {
     backgroundColor: color.darkCyan,
+  },
+  "& .forgot-pass": {
+    width: "50%",
+    marginLeft: "10%",
+    fontSize: fontSize.h6,
+    fontWeight: fontWeight.p1,
+  },
+  "& .error-msg": {
+    color: color.red,
+    textTransform: "none",
+    width: "100%",
+    marginLeft: "5%",
+    display: "flex",
   },
 });

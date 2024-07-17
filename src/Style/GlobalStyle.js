@@ -1,8 +1,8 @@
 const fontSize = {
   h2: "3rem",
   h3: "2.25rem",
-  h4: "1rem",
-  h5: "1.25rem",
+  h4: "1.25rem",
+  h5: "1rem",
   h6: "0.8rem",
   p: "0.75rem",
 };
@@ -20,6 +20,7 @@ const color = {
   cyan: "#00D9D2",
   darkCyan: "#008C87",
   lightRed: "#FF5F64",
+  red:'#FF0000'
 };
 
 export { fontSize, fontWeight, color };
